@@ -1,11 +1,10 @@
-// swift-tools-version: 6.0
-// The swift-tools-version declares the minimum version of Swift required to build this package.
+// swift-tools-version: 5.10
 
 import PackageDescription
 
 let package = Package(
     name: "EigV",
-    platforms: [.macOS(.v13), .macCatalyst(.v16)],
+    platforms: [.macOS(.v13), .macCatalyst(.v16), .iOS(.v16)],
     products: [
         .library(
             name: "EigV",

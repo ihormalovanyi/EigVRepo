@@ -28,6 +28,7 @@ public struct Complex: CustomStringConvertible, Equatable {
     
 }
 
+@available(iOS 16.4, *)
 @available(macOS 13.3, *)
 @available(macCatalyst 16.4, *)
 /// Computes the eigenvalues and optionally the left and/or right eigenvectors of a real square matrix.
